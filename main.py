@@ -23,14 +23,14 @@ def handleMaskWebCamButton():
 
 if __name__ == '__main__':
 
-    background = '#5ba4fc'
+    background = '#FFCC66'
     bgButton = '#f8f8f8'
     activeBgBtn = '#e6e6e6'
     colorButton = '#000000'
 
     #Create window
     window = tk.Tk()
-    window.title('Nhóm 13')
+    window.title('NHÓM 10 THỰC TẬP CHUYÊN NGÀNH ')
 
     window_width = 800
     window_height = 400
@@ -76,8 +76,8 @@ if __name__ == '__main__':
                 )
     btnMaskImg.grid(column = 0, row = 1)
     
-    #Detect mask video button 
-    btnMaskVideo = Button(left_frame, text = "Nhận diện qua video", 
+    #Detect mask video button
+    btnMaskVideo = Button(left_frame, text = "Nhận diện qua video",
                     command = handleVideoButton,
                     font = ("Times New Roman", 12, 'bold'),
                     height = 2, width = 25,
@@ -85,7 +85,7 @@ if __name__ == '__main__':
                     activebackground = activeBgBtn
                 )
     btnMaskVideo.grid(column = 0, row = 3)
-    
+
     #Detect mask webcam button 
     btnMaskWebcam = Button(left_frame, text = "Nhận diện qua webcam", 
                     command = handleMaskWebCamButton,
